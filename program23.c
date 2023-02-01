@@ -1,3 +1,4 @@
+// 02.5  Accept number from user and check whether number is even or odd.c
 #include<stdio.h>
 typedef int BOOL;
 #define TRUE 1

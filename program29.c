@@ -1,3 +1,4 @@
+// 04.2 Calculate Income Tax.c
 #include<stdio.h>
 
 float IncomeTax(int Income)

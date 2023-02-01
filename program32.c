@@ -1,3 +1,4 @@
+// 05.1  accept number from user and display its multiplication of factors
 #include<stdio.h>
 
 int MultFact(int iNo)

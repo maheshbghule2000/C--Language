@@ -1,3 +1,4 @@
+// 06.3  Accept two numbers and check whether numbers are equal or not
 #include<stdio.h>
 typedef int BOOL;
 #define TRUE 1

@@ -1,6 +1,7 @@
+// 03.3  accept number from user and print even factors of that number
 #include<stdio.h>
 
-void DisplayEvenFactor(int iNo)
+void DisplayFactor(int iNo)
 {
     int Cnt=1;
     if(iNo <= 0)
@@ -9,7 +10,7 @@ void DisplayEvenFactor(int iNo)
     }
     for(Cnt=1;iNo>Cnt;Cnt++)
     {
-        if(iNo%Cnt==0)
+        if(iNo%Cnt==0 && Cnt%2==0)
         {
             printf(" %d ",Cnt);
         }
@@ -22,7 +23,7 @@ int main()
     printf("Enter number => ");
     scanf("%d",&iValue);
 
-    DisplayEvenFactor(iValue);
+    DisplayFactor(iValue);
 
     return 0;
 }

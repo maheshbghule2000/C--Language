@@ -1,3 +1,4 @@
+// 06.5  Accept total marks & obtained marks from user and calculate percentage.c
 #include<stdio.h>
 
 float Percentage(int iNo1,int iNo2)

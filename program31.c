@@ -1,3 +1,4 @@
+// 04.4  accept number of kilometres from user and return the estimated rent
 #include<stdio.h>
 
 int TouristBill(int iKilometer)

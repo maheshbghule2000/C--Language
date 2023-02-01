@@ -1,3 +1,4 @@
+// 04.3  accept standard from user and display the corresponding fees
 #include<stdio.h>
 #include<stdlib.h>
 

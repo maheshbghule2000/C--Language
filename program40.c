@@ -1,3 +1,4 @@
+// 07.1 Accept number from user and print that number of star on screen
 #include<stdio.h>
 
 void Pattern(int iNo)

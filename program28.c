@@ -1,3 +1,4 @@
+// 04.1 Hotel Bill Discount
 #include<stdio.h>
 
 float CalculateBill(int iAmount)

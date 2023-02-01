@@ -1,3 +1,4 @@
+// 05.3 Accept number from user and display all its non factors
 #include<stdio.h>
 
 void NonFact(int iNo)

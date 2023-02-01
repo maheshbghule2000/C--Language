@@ -1,3 +1,4 @@
+// 05.5 Accept number from user and return difference between summation of all its factors and non factors
 #include<stdio.h>
 int FactDiff(int iNo)
 {

@@ -1,3 +1,4 @@
+// 03.5  Accept on character from user and check whether that character is vowel  (a,e,i,o,u) or not
 #include<stdio.h>
 typedef int BOOL ;
 # define TRUE 1

@@ -1,3 +1,4 @@
+// 06.2  Accept one number from user and check whether that number is greater than 100 or not
 #include<stdio.h>
 typedef int BOOL;
 #define TRUE 1

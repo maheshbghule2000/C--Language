@@ -1,3 +1,4 @@
+// 05.2 accept number from user and display its factors in decreasing order
 #include<stdio.h>
 
 void FactRev(int iNo)

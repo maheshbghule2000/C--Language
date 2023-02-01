@@ -1,3 +1,4 @@
+/*02.4  Accept two numbers from user and display first number in second number of times.c*/
 #include<stdio.h>
 
 void Display( int iNo, int iFrequency)

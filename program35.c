@@ -1,3 +1,4 @@
+// 05.4 Accept number from user and return summation of all its non factors
 #include<stdio.h>
 
 int SumNonFact(int iNo)
