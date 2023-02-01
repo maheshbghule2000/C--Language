@@ -1,11 +1,11 @@
+// 02.2 Accept one number from user and print that number of star on screen.c
 void Display(int iNo)
 {
-    int iCnt = 0;
     // Write Updater
-    while( iCnt < iNo )
+    while( iNo > 0  )
     {
         printf(" * ");
-        iCnt++ ;
+        iNo--;
     }
 }
 int main()

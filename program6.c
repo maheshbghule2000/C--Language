@@ -1,3 +1,4 @@
+// print that number of star on screen.c
 #include<stdio.h>
 void Accept(int iNo)
  {
