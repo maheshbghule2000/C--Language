@@ -1,3 +1,4 @@
+/*Accept name from user and print that */
 #include<stdio.h>
 int main()
 {

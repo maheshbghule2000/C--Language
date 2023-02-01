@@ -1,3 +1,7 @@
+/*Accept Number for User and print first 5 Number multiplication 
+> Enter The Number => 3
+> 3 6 9 12 15 
+*/
 #include<stdio.h>
 void MultDisplay(int iNo)
 {
