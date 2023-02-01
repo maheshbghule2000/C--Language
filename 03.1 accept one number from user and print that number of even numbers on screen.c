@@ -1,4 +1,3 @@
-/*03.1 accept one number from user and print that number of even numbers on screen.c*/
 #include<stdio.h>
 
 void PrintEven(int iNo)
