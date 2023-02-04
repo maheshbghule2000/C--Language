@@ -1,3 +1,4 @@
+// 13.4 Accept number from user and return multiplication of all digits
 #include<stdio.h>
 
 int MultDig(int iNo)

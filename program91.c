@@ -1,11 +1,14 @@
+// 14.4 Accept number from user and display below pattern
 #include<stdio.h>
 
 void Pattern(int iNo)
 {
-    while(iNo>0)
+    int iNo2=1;
+
+    while(iNo2<=iNo)
     {
-        printf("%d\t%c\t",iNo,35);
-        iNo--;
+        printf("%c\t%d\t%c\t",42,iNo2,35);
+        iNo2++;
     }
 }
 int main()
@@ -19,3 +22,4 @@ int main()
 
     return 0;
 }
+

@@ -1,24 +1,15 @@
+// 15.5 Accept number of rows and number of columns from user and display pattern
 #include<stdio.h>
 
 void Pattern(int iRow,int iCol)
 {
     int iNo1=1,iNo2=1;
-    int Ch=0;
+
     for(iNo1=1;iNo1<=iRow;iNo1++)
     {
         for(iNo2=1;iNo2<=iCol;iNo2++)
         {
-            if(iNo1%2!=0)
-            {
-                Ch=64;
-                printf(" %c ",Ch+iNo2);
-            }
-            else
-            {
-                Ch=96;
-                printf(" %c ",Ch+iNo2);
-            }
-
+            printf(" %d ",iNo1);
         }
         printf("\n");
     }

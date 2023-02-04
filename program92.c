@@ -1,4 +1,5 @@
-#include<stdio.h>
+
+// 14.5 Accept number from user and display below pattern#include<stdio.h>
 
 void Pattern(int iNo)
 {
