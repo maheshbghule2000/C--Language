@@ -1,3 +1,4 @@
+// 07.2  Accept number from user and print numbers till that  number
 #include<stdio.h>
 void Display(int iNo)
 {

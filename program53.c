@@ -1,3 +1,4 @@
+// 07.3 Accept number from user and print its numbers line
 #include<stdio.h>
 void Display(int iNo)
 {

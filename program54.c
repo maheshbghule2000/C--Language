@@ -1,3 +1,4 @@
+// 07.4  Accepts N from user and print all odd numbers up to N
 #include<stdio.h>
 void OddNum(int iNo)
 {

@@ -1,3 +1,4 @@
+// 08.4 Write a program which accept number from user and display its table
 #include<stdio.h>
 
 void Table(int iNo)
@@ -7,7 +8,7 @@ void Table(int iNo)
     {
         iNo=-iNo;
     }
-    for(i=10;i>=1;i--)
+    for(i=1;i<=10;i++)
     {
         printf("%3d",iNo*i);
     }

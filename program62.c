@@ -1,5 +1,5 @@
 #include<stdio.h>
-
+// 09.1 Accept number from user and display below pattern
 void Display(int iNo)
 {
     int i=0;
