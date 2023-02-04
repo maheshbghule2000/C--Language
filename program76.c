@@ -1,23 +1,17 @@
+// 11.5 Accept accept range from user and display all numbers in between that range in reverse order
 #include<stdio.h>
-
 void RangeDisplay(int istart,int iend)
 {
-    if(istart > iend || istart < 0)
+    if(istart > iend)
     {
         printf("Invalid Range !!!");
     }
     else
     {
-        int isum=0;
-
-        for(;istart<=iend;istart++)
+        for(;istart<=iend;iend--)
         {
-            if(istart%2==0)
-            {
-                isum+=istart;
-            }
+            printf("\t%d",iend);
         }
-        printf("\t%d",isum);
     }
 }
 int main()
@@ -34,3 +28,4 @@ int main()
 
     return 0;
 }
+

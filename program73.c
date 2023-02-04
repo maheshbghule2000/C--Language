@@ -1,19 +1,20 @@
+// 11.2 accept range from user and display all even numbers in between that range
 #include<stdio.h>
 void RangeDisplay(int istart,int iend)
 {
-    if(istart > iend || istart < 0)
+    if(istart > iend)
     {
         printf("Invalid Range !!!");
     }
     else
     {
-        int isum=0;
-
         for(;istart<=iend;istart++)
         {
-            isum+=istart;
+            if(istart%2==0)
+            {
+                printf("\t%d",istart);
+            }
         }
-        printf("\t%d",isum);
     }
 }
 int main()
@@ -30,4 +31,3 @@ int main()
 
     return 0;
 }
-

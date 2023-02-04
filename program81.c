@@ -1,3 +1,4 @@
+// 12.5 Accept number from user and count frequency of such a digits which are less than 6
 #include<stdio.h>
 
 #define TRUE 1
@@ -5,14 +6,14 @@
 
 typedef int BOOL;
 
-BOOL CntFour(int iNo)
+BOOL Count(int iNo)
 {
     int iDig=0,Cnt=0;
 
     while(iNo>0)
     {
         iDig=iNo%10;
-        if(iDig==4)
+        if(iDig<6)
         {
             Cnt++;
         }
@@ -27,11 +28,12 @@ int main()
     printf("Enter The Number => ");
     scanf("%d",&iValue);
 
-    iRet=CntFour(iValue);
+    iRet=Count(iValue);
 
     printf("%d",iRet);
 
     return 0;
 }
+
 
 

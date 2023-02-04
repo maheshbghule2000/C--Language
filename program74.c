@@ -1,16 +1,20 @@
+// 11.3 Accept range from user and return addition of all numbers in between that range
 #include<stdio.h>
 void RangeDisplay(int istart,int iend)
 {
-    if(istart > iend)
+    if(istart > iend || istart < 0)
     {
         printf("Invalid Range !!!");
     }
     else
     {
-        for(;istart<=iend;iend--)
+        int isum=0;
+
+        for(;istart<=iend;istart++)
         {
-            printf("\t%d",iend);
+            isum+=istart;
         }
+        printf("\t%d",isum);
     }
 }
 int main()

@@ -1,3 +1,4 @@
+// 11.1 Accept range from user and display all numbers in between that range
 #include<stdio.h>
 void RangeDisplay(int istart,int iend)
 {
@@ -9,10 +10,7 @@ void RangeDisplay(int istart,int iend)
     {
         for(;istart<=iend;istart++)
         {
-            if(istart%2==0)
-            {
-                printf("\t%d",istart);
-            }
+            printf("\t%d",istart);
         }
     }
 }

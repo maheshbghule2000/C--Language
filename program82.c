@@ -1,18 +1,14 @@
+// 13.1 Accept number from user and return the count of even digits
 #include<stdio.h>
 
-#define TRUE 1
-#define FALSE 0
-
-typedef int BOOL;
-
-BOOL Count(int iNo)
+int CntEven(int iNo)
 {
     int iDig=0,Cnt=0;
 
     while(iNo>0)
     {
         iDig=iNo%10;
-        if(iDig<6)
+        if(iDig%2==0)
         {
             Cnt++;
         }
@@ -22,17 +18,14 @@ BOOL Count(int iNo)
 }
 int main()
 {
-    BOOL iValue=0,iRet=0;
+    int iValue=0,iRet=0;
 
     printf("Enter The Number => ");
     scanf("%d",&iValue);
 
-    iRet=Count(iValue);
+    iRet=CntEven(iValue);
 
     printf("%d",iRet);
 
     return 0;
 }
-
-
-

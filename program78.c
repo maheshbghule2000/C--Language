@@ -1,3 +1,4 @@
+// 12.2 Accept number from user and check whether it contains 0 in it or not
 #include<stdio.h>
 
 #define TRUE 1

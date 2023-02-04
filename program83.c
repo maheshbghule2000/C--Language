@@ -1,3 +1,4 @@
+// 13.2 Accept number from user and return the count of odd digits
 #include<stdio.h>
 
 int CntEven(int iNo)

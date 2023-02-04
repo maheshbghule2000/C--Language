@@ -1,3 +1,4 @@
+// 10.2  Accept width & height of rectangle from user and calculate its area
 #include<stdio.h>
 
 double RectArea(float fWidth, float fHeight)

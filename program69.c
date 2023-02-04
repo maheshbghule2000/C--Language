@@ -1,3 +1,4 @@
+// 10.3  Accept distance in kilometre and convert it into meter
 #include<stdio.h>
 
 int KMtoMT(int iKilo)

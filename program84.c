@@ -1,18 +1,14 @@
+// 13.3 Accept number from user and return the count of digits in between 3 and 7
 #include<stdio.h>
 
-#define TRUE 1
-#define FALSE 0
-
-typedef int BOOL;
-
-BOOL CntTwo(int iNo)
+int ChkDig(int iNo)
 {
     int iDig=0,Cnt=0;
 
     while(iNo>0)
     {
         iDig=iNo%10;
-        if(iDig==2)
+        if(iDig>3 && iDig<7)
         {
             Cnt++;
         }
@@ -22,15 +18,14 @@ BOOL CntTwo(int iNo)
 }
 int main()
 {
-    BOOL iValue=0,iRet=0;
+    int iValue=0,iRet=0;
 
     printf("Enter The Number => ");
     scanf("%d",&iValue);
 
-    iRet=CntTwo(iValue);
+    iRet=ChkDig(iValue);
 
     printf("%d",iRet);
 
     return 0;
 }
-

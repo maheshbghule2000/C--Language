@@ -1,3 +1,4 @@
+// 10.4 Accept temperature in Fahrenheit and convert it into celsius
 #include<stdio.h>
 
 double FhtoCs(float fFahrenheit)

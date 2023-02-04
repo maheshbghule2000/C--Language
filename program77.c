@@ -1,3 +1,4 @@
+// 12.1 Accept number from user and display its digits in reverse order
 #include<stdio.h>
 
 void DisplayRev(int iNo)

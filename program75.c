@@ -1,16 +1,24 @@
+// 11.4 Accept range from user and return addition of all even numbers in between that range
 #include<stdio.h>
+
 void RangeDisplay(int istart,int iend)
 {
-    if(istart > iend)
+    if(istart > iend || istart < 0)
     {
         printf("Invalid Range !!!");
     }
     else
     {
+        int isum=0;
+
         for(;istart<=iend;istart++)
         {
-            printf("\t%d",istart);
+            if(istart%2==0)
+            {
+                isum+=istart;
+            }
         }
+        printf("\t%d",isum);
     }
 }
 int main()
