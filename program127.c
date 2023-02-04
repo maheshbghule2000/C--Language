@@ -1,20 +1,20 @@
+// 21.5 Accept N numbers from user and display all such elements which are multiples of 11
 #include<stdio.h>
-int Display(int Arr[],int iSize)
+void Display(int Arr[],int iSize)
 {
-    int iCnt=0,iDig=0;
-
+    int iCnt=0;
     for(iCnt=0;iCnt<iSize;iCnt++)
     {
-        if(Arr[iCnt]%2==0)
+        if(Arr[iCnt]%11==0)
         {
-            iDig++;
+            printf("\n%d",Arr[iCnt]);
         }
     }
-    return iDig;
+    return;
 }
 int main()
 {
-    int iSize=0,iCnt=0,iRet=0;
+    int iSize=0,iCnt=0;
     int *ptr=NULL;
 
     printf("Enter Number Of Elements => ");
@@ -32,9 +32,7 @@ int main()
         printf("\nEnter Element %d => ",iCnt+1);
         scanf("%d",&ptr[iCnt]);
     }
-    iRet=Display(ptr,iSize);
-
-    printf("Frequency Of Even Numbers Is => %d",iRet);
+    Display(ptr,iSize);
 
     free(ptr);
     return 0;

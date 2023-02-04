@@ -1,3 +1,4 @@
+// 20.1 Accept number of rows and number of columns from user and display below pattern
 #include<stdio.h>
 
 void Pattern(int iRow,int iCol)
@@ -6,15 +7,15 @@ void Pattern(int iRow,int iCol)
 
     for(iNo1=1;iNo1<=iRow;iNo1++)
     {
-        for(iNo2=iCol;iNo2>=1;iNo2--)
+        for(iNo2=1;iNo2<=iCol;iNo2++)
         {
-            if(iNo2>=iNo1)
+            if(iNo1+iNo2==(iRow+iCol)/2+1)
             {
-                printf(" %c ",'*');
+                printf(" # ");
             }
             else
             {
-                printf(" %c ",'#');
+                printf(" * ");
             }
 
         }
@@ -32,7 +33,3 @@ int main()
 
     return 0;
 }
-
-
-
-

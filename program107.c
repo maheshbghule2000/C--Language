@@ -1,3 +1,4 @@
+// 17.5 Accept number of rows and number of columns from user and display below pattern
 #include<stdio.h>
 
 void Pattern(int iRow,int iCol)

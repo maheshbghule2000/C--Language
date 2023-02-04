@@ -1,3 +1,4 @@
+// 21.2 Accept N numbers from user and display all such elements which are divisible by 5
 #include<stdio.h>
 
 void Display(int Arr[],int iSize)

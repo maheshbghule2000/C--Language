@@ -1,3 +1,4 @@
+// 22.4 Accept N numbers from user and return frequency of 11 form it
 #include<stdio.h>
 int Display(int Arr[],int iSize)
 {
@@ -5,13 +6,9 @@ int Display(int Arr[],int iSize)
 
     for(iCnt=0;iCnt<iSize;iCnt++)
     {
-        if(Arr[iCnt]%2==0)
+        if(Arr[iCnt]==11)
         {
             iDig++;
-        }
-        else
-        {
-            iDig--;
         }
     }
     return iDig;
@@ -38,8 +35,10 @@ int main()
     }
     iRet=Display(ptr,iSize);
 
-    printf("Difference Between Even & Odd Numbers Is => %d",iRet);
+    printf("Frequency Of 11 is => %d",iRet);
 
     free(ptr);
     return 0;
 }
+
+
